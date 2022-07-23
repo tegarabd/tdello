@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #7fa4c5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input,
+select,
+option,
+textarea {
+  border: none;
+  outline: none;
+  font: inherit;
+  color: #7fa4c5;
+  background-color: transparent;
+  border-bottom: 0.125rem solid #7fa4c5;
+}
+
+textarea {
+  width: 20rem;
+  height: 10rem;
+}
+
+input[type="email"]:disabled {
+  border: none;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+input[type="submit"] {
+  background-color: #7fa4c5;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  background-color: aliceblue;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  border: none;
+  outline: none;
+  font: inherit;
+  font-weight: bold;
+  background-color: transparent;
+  color: #7fa4c5;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link {
+  background-color: aliceblue;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #7fa4c5;
+  cursor: pointer;
+}
+
+.linkTitle {
+  margin: 0;
+}
